@@ -14,6 +14,7 @@ const ar = {
     about: "من نحن",
     contact: "تواصل معنا",
     booking: "احجز جلستك",
+    medicalRecord: "سجلك المرضي",
     dashboard: "لوحة التحكم",
     soon: "قريباً",
     menu: "فتح القائمة",
@@ -355,6 +356,45 @@ const ar = {
       back: "العودة لنظرة عامة",
     },
   },
+  medicalRecord: {
+    meta: {
+      title: "سجلك المرضي | BMC",
+      description: "استعرض سجلك الطبي وتاريخ الفحوصات في مركز بركات",
+    },
+    hero: {
+      kicker: "سجلك المرضي",
+      title: "استعرض تاريخك الطبي",
+      lead: "أدخل رقمك القومي لعرض سجلك الطبي وتاريخ الفحوصات",
+    },
+    form: {
+      label: "الرقم القومي",
+      placeholder: "أدخل رقمك القومي (14 رقم)",
+      submit: "عرض السجل",
+      clear: "مسح",
+    },
+    notFound: {
+      title: "لم يتم العثور على سجل",
+      message: "الرقم القومي المدخل غير موجود في نظامنا",
+      action: "حاول مرة أخرى",
+    },
+    record: {
+      patient: "بيانات المريض",
+      name: "الاسم",
+      nationalId: "الرقم القومي",
+      phone: "رقم الهاتف",
+      age: "العمر",
+      gender: "النوع",
+      male: "ذكر",
+      female: "أنثى",
+      history: "تاريخ الفحوصات",
+      exam: "نوع الفحص",
+      date: "التاريخ",
+      result: "النتيجة",
+      print: "طباعة السجل",
+      download: "تحميل PDF",
+      noExams: "لا توجد فحوصات مسجلة",
+    },
+  },
   notFound: {
     title: "هذه الصفحة غير موجودة.",
     text: "ربما تغيّر الرابط. عُد إلى الرئيسية وتابع من هناك.",
@@ -364,3 +404,43 @@ const ar = {
 
 export default ar;
 export type Dictionary = typeof ar;
+
+  medicalRecord: {
+    meta: {
+      title: "سجلك المرضي | BMC",
+      description: "استعرض سجلك الطبي وتاريخ الفحوصات في مركز بركات",
+    },
+    hero: {
+      kicker: "سجلك المرضي",
+      title: "استعرض تاريخك الطبي",
+      lead: "أدخل رقمك القومي لعرض سجلك الطبي وتاريخ الفحوصات",
+    },
+    form: {
+      label: "الرقم القومي",
+      placeholder: "أدخل رقمك القومي (14 رقم)",
+      submit: "عرض السجل",
+      clear: "مسح",
+    },
+    notFound: {
+      title: "لم يتم العثور على سجل",
+      message: "الرقم القومي المدخل غير موجود في نظامنا",
+      action: "حاول مرة أخرى",
+    },
+    record: {
+      patient: "بيانات المريض",
+      name: "الاسم",
+      nationalId: "الرقم القومي",
+      phone: "رقم الهاتف",
+      age: "العمر",
+      gender: "النوع",
+      male: "ذكر",
+      female: "أنثى",
+      history: "تاريخ الفحوصات",
+      exam: "نوع الفحص",
+      date: "التاريخ",
+      result: "النتيجة",
+      print: "طباعة السجل",
+      download: "تحميل PDF",
+      noExams: "لا توجد فحوصات مسجلة",
+    },
+  },

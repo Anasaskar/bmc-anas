@@ -88,16 +88,16 @@ const sources: MachineSource[] = [
     abbr: "CT",
     tone: "cyan",
     image: ct,
-    pictured: "Revolution Maxima",
+    pictured: "Revolution Altitude",
     copy: {
       ar: {
         name: "الأشعة المقطعية",
-        tagline: "صور مقطعية واضحة للجسم في دقائق.",
+        tagline: "تقنية CT متقدمة، في متناول الجميع.",
         description:
-          "جهاز 128 شريحة يلتقط صوراً مقطعية متتالية ويجمعها الكمبيوتر في صورة ثلاثية الأبعاد، بجرعة إشعاع أقل. مثالي للصدر والبطن والأوعية الدموية والحالات العاجلة.",
-        uses: ["الصدر والرئتان", "البطن والحوض", "الكسور المعقدة", "الأوعية الدموية"],
+          "Revolution Altitude يجمع بين جودة صور استثنائية وكفاءة مدعومة بالذكاء الاصطناعي، مع جرعة إشعاع منخفضة تصل إلى 85%. كاشف Lumia 40mm يوفر دقة تصل إلى 0.25mm، ونظام TrueFidelity DL يعطي صوراً عالية الوضوح وواضحة.",
+        uses: ["الصدر والرئتان", "البطن والحوض", "القلب والأوعية الدموية", "الأورام والمتابعة"],
         duration: "من 5 إلى 15 دقيقة",
-        radiation: "جرعة منخفضة ومضبوطة",
+        radiation: "جرعة منخفضة (توفير يصل إلى 85%)",
         prep: "صيام بضع ساعات إذا كان بالصبغة",
         before: [
           "إذا كان الفحص بالصبغة، قد نطلب منك الصيام لبضع ساعات.",
@@ -112,12 +112,12 @@ const sources: MachineSource[] = [
       },
       en: {
         name: "Computed Tomography",
-        tagline: "Clear cross-section images of the body, in minutes.",
+        tagline: "Advanced CT technology, accessible to all.",
         description:
-          "A 128-slice scanner takes a fast series of X-ray slices and builds them into a 3D view, at a lower dose. Ideal for the chest, abdomen, blood vessels and urgent cases.",
-        uses: ["Chest and lungs", "Abdomen and pelvis", "Complex fractures", "Blood vessels"],
+          "Revolution Altitude combines exceptional image quality with AI-powered efficiency and up to 85% dose reduction. The 40mm Lumia detector delivers up to 0.25mm spatial resolution, while TrueFidelity DL reconstruction provides high-definition images with natural texture.",
+        uses: ["Chest and lungs", "Abdomen and pelvis", "Heart and blood vessels", "Oncology and follow-up"],
         duration: "5 to 15 minutes",
-        radiation: "Low, controlled dose",
+        radiation: "Low dose (up to 85% reduction)",
         prep: "Fast a few hours if contrast is used",
         before: [
           "If your scan uses contrast dye, we may ask you to fast for a few hours.",
@@ -186,7 +186,7 @@ const sources: MachineSource[] = [
     abbr: "SONO",
     tone: "mint",
     image: ultrasound,
-    pictured: "LOGIQ E10",
+    pictured: "LOGIQ Totus",
     copy: {
       ar: {
         name: "السونار التخصصي",
@@ -284,7 +284,7 @@ const sources: MachineSource[] = [
     abbr: "DEXA",
     tone: "cyan",
     image: dexa,
-    pictured: "Lunar DXA",
+    pictured: "Prodigy Advance",
     copy: {
       ar: {
         name: "قياس كثافة العظام",
@@ -333,7 +333,7 @@ const sources: MachineSource[] = [
     abbr: "PET/CT",
     tone: "navy",
     image: pet,
-    pictured: "Discovery IQ Gen 2",
+    pictured: "Omni Legend",
     copy: {
       ar: {
         name: "التصوير المقطعي البوزيتروني",
