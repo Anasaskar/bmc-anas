@@ -1,4 +1,4 @@
-import type { Dictionary } from "../../assets/machines/ar";
+import type { Dictionary } from "./ar";
 
 const en: Dictionary = {
   meta: {

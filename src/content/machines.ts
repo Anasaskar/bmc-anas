@@ -1,14 +1,14 @@
 import type { StaticImageData } from "next/image";
 import type { Locale } from "@/lib/i18n";
 
-import mri from "@/assets/machines/mri.jpg";
-import ct from "@/assets/machines/ct.jpg";
-import dexa from "@/assets/machines/dexa.jpg";
-import pet from "@/assets/machines/pet.jpg";
-import nuclear from "@/assets/machines/nuclear.jpg";
-import xray from "@/assets/machines/xray.jpg";
-import mammography from "@/assets/machines/mammography.jpg";
-import ultrasound from "@/assets/machines/ultrasound.jpg";
+import mri from "@/assets/machines/1.jpg";
+import ct from "@/assets/machines/2.jpg";
+import dexa from "@/assets/machines/6.jpg";
+import pet from "@/assets/machines/7.jpg";
+import nuclear from "@/assets/machines/8.jpg";
+import xray from "@/assets/machines/3.jpg";
+import mammography from "@/assets/machines/5.jpg";
+import ultrasound from "@/assets/machines/4.jpg";
 
 type Copy = {
   name: string;

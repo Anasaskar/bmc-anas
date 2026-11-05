@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { CSSProperties } from "react";
-import mriImg from "@/assets/machines/mri.jpg";
+import mriImg from "@/assets/machines/1.jpg";
 import CrescentPattern from "@/components/brand/CrescentPattern";
 import OrbitRings from "@/components/brand/OrbitRings";
 import Icon from "@/components/ui/Icon";
